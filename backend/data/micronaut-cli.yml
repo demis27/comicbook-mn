@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: org.demis27.comicbook.data
+---
+testFramework: junit
+sourceLanguage: java
