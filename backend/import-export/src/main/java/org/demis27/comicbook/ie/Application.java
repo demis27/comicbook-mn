@@ -1,4 +1,4 @@
-package org.demis27.comicbook.paging;
+package org.demis27.comicbook.ie;
 
 import io.micronaut.runtime.Micronaut;
 
