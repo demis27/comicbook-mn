@@ -1,0 +1,12 @@
+language: java
+
+script: 
+  - cd comics-backend
+  - mvn clean test 
+
+jdk: openjdk11
+
+branches: master
+
+notifications:
+  email: demis27@demis27.net
