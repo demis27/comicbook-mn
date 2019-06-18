@@ -1,3 +1,8 @@
 micronaut:
   application:
     name: api
+  server:
+    port: 7777
+
+mongodb:
+  uri: mongodb://comics:comics@localhost:27017/comics

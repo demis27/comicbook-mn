@@ -1,3 +1,6 @@
 micronaut:
   application:
     name: data
+
+mongodb:
+  uri: mongodb://comics:comics@localhost:27017/comics
