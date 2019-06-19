@@ -5,17 +5,18 @@ import org.bson.codecs.pojo.annotations.BsonProperty;
 
 public class Person {
 
+    private String id;
+
     private String firstname;
 
-    private String id;
+    private String lastname;
 
     public Person() {
     }
 
     @BsonCreator
-    public Person(@BsonProperty("id")  String id, @BsonProperty("firstname") String firstname) {
+    public Person(@BsonProperty("id")  String id) {
         this.id = id;
-        this.firstname = firstname;
     }
 
     public String getId() {
@@ -32,5 +33,13 @@ public class Person {
 
     public void setFirstname(String firstname) {
         this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 }
